@@ -18,10 +18,4 @@ public class ParkingSlot extends BaseModel{
     private ParkingFloor parkingFloor;
     private SpotAssignmentStrategyType spotAssignmentStrategyType;
 
-    public ParkingSlot(int spotNumber,ParkingSlotStatus slotStatus,List<VehicleType> vehicleTypeList,ParkingFloor parkingFloor){
-        this.spotNumber = spotNumber;
-        this.slotStatus = slotStatus;
-        this.vehicleTypeList = vehicleTypeList;
-        this.parkingFloor = parkingFloor;
-    }
 }

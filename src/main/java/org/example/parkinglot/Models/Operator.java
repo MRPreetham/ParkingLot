@@ -9,8 +9,4 @@ public class Operator extends BaseModel{
     private String name;
     private int empId;
 
-    public Operator(String name,int empId){
-        this.name = name;
-        this.empId = empId;
-    }
 }

@@ -12,10 +12,4 @@ public class ParkingFloor extends BaseModel{
     private Gate EntryGate;
     private Gate ExitGate;
 
-    public ParkingFloor(int floorNumber,List<ParkingSlot> parkingSlots,Gate EntryGate,Gate ExitGate){
-        this.floorNumber = floorNumber;
-        this.parkingSlots = parkingSlots;
-        this.EntryGate = EntryGate;
-        this.ExitGate = ExitGate;
-    }
 }

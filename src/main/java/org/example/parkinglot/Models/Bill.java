@@ -14,15 +14,8 @@ import java.util.List;
 public class Bill extends BaseModel{
     private Date exitTime;
     private Ticket ticket;
-    private float fee;
+    private int fee;
     private Operator generatedBy;
     private List<Payment> paymentList;
     private FeeCalculatorStrategyType feeCalculatorStrategyType;
-
-    public Bill(Date exitTime,Ticket ticket,Operator generatedBy,FeeCalculatorStrategyType feeCalculatorStrategyType){
-        this.exitTime = exitTime;
-        this.generatedBy = generatedBy;
-        this.feeCalculatorStrategyType = feeCalculatorStrategyType;
-        this.ticket = ticket;
-    }
 }

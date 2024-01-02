@@ -11,10 +11,4 @@ public class Gate extends BaseModel{
     private Operator currentOperator;
     private GateType gateType;
 
-    public Gate(int gateNumber,Operator operator,GateType gateType){
-        this.gateNumber = gateNumber;
-        this.currentOperator = operator;
-        this.gateType = gateType;
-
-    }
 }

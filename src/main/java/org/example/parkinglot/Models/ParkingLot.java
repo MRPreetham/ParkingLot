@@ -16,10 +16,4 @@ public class ParkingLot extends BaseModel{
     private List<VehicleType> vehicleTypeList;
     private List<Gate> gateList;
 
-    public ParkingLot(String name,List<ParkingFloor> parkingFloorList,List<VehicleType> vehicleTypeList,List<Gate> gateList){
-        this.name = name;
-        this.parkingFloorList = parkingFloorList;
-        this.vehicleTypeList = vehicleTypeList;
-        this.gateList = gateList;
-    }
 }
